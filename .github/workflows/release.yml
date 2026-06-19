@@ -30,5 +30,4 @@ jobs:
           name: mcaddon-packages
           path: |
             artifact-out/packages/**/*.mcaddon
-            artifact-out/packages/**/*.mcpack
           if-no-files-found: error
