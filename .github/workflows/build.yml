@@ -12,6 +12,6 @@ jobs:
     permissions:
       contents: read
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
       - name: Build Docker artifacts image
         run: docker build --target artifacts -t cront-addon-artifacts:latest .
